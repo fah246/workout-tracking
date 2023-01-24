@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap');
+body{
+    font-family: "Spline Sans", sans-serif;
+    background-color: black;
+    color: white;
+    
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+#navbar{
+background-color: black;
+color: white;
+padding: 20px;
+
+
+
+
+}
+.nav
+{
+    display: flex;
+    justify-content: space-evenly;
+   align-items: center;
+  
+   
+}
+ /* dropdown menu */
+
+ .dropbtn {
+    background-color: #D14527;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+   
+    margin-left: 10px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #D14527;
+  }
+ 
+
+.logo{
+font-size: 30px;
+}
+ a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+   
+}
+.option a:hover{
+background-color: #D14527;
+}
+.color{
+    color: #D14527;
+}
+.btn{
+    padding: 10px 20px;
+    margin-left: 5px; ;
+    background-color: #D14527;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+/* about */
+#head{
+    padding: 10px 20px;
+}
+
+.container{
+    background: #333 url('../img/banner-bg.jpg') no-repeat center center/cover;
+    height: 90vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 80px ;
+   
+}
+.heading{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.a-p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.feats{
+    display: flex;
+    
+    
+}
+.img{
+  flex: 1;
+}
+#about{
+    padding: 0 100px;
+    font-size: 20px;
+}
+.content{
+    color: white;
+    padding: 20px;
+    flex: 1;
+}
+
+.box-container{
+    display: flex;
+    padding: 10px;
+}
+.fas{
+    color:#D14527;
+}
+.p-1{
+    padding: 10px;
+   
+}
+.p-2{
+    padding: 50px;
+}
+#services{
+    padding: 10px 100px;
+    
+}
+.box1{
+    padding: 10px;
+}
+
+#pricing{
+    padding: 10px 100px;
+    font-size: 20px;
+}
+.item1{
+    flex: 2;
+}
+.item2{
+    flex: 1;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+  }
+  
+  .banner span {
+    font-size: 2rem;
+    color: #D14527;
+  }
+  
+  .banner h3 {
+    padding-top: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+  }
+  
+  .banner p {
+    margin: 1rem auto;
+    max-width: 60rem;
+    font-size: 1.5rem;
+    color: #aaa;
+    line-height: 2;
+  }
+
+
+  /* footer */
+
+  .footer{
+    height: 200px;
+    margin: 10px;
+    padding: 20px 100px;
+    background: #333 url('../img/banner-bg.jpg') no-repeat center center/cover;
+
+  }
+  .f1{
+    flex: 1;
+  }
+  .f2{
+    flex: 1;
+  }
+
+
+ 
